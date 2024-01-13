@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
         //IMPLEMENTADO
-        //Foi criado instâncias de Nokia
+        //Foi criado instâncias do Nokia
         Console.WriteLine("Smartphone Nokia:");
         Smartphone nokia = new Nokia(numero: "(11)93344-5009", modelo: "Nokia XR20", imei: "102030405", memoria: 64);
         nokia.Ligar();
